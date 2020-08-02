@@ -36,7 +36,7 @@ render() {
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
 						}>
-						<h4>Agile</h4>
+						<h4></h4>
 					</div>
 
         </div>
