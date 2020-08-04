@@ -1,34 +1,41 @@
-import React from 'react';
-import WOW from 'wowjs';
+import React from "react";
+import Background from "./background.jsx";
 import About from "./about.jsx";
-import BackGround from './background'
+//import Test from "./test.jsx";
+import Projects from "./projects.jsx";
+import Contact from "./contact.jsx";
 
-
+import WOW from "wowjs";
 
 class Navbar extends React.Component {
-    constructor(props){
-        super(props);
-        this.about = React.createRef();
-    }
-    
-    componentDidMount() {
-		new WOW.WOW().init();
-    }
-    navEffect() {
-		window.addEventListener("scroll", () => {
-			var navBar = document.getElementById("navbar");
-			var domRect = navBar.getBoundingClientRect();
-			var myBackground = document.getElementById("my-background");
-			var domBGRect = myBackground.getBoundingClientRect();
+	constructor(props) {
+		super(props);
+		this.about = React.createRef();
+		this.projects = React.createRef();
+		this.contact = React.createRef();
 
-			if (domRect.y <= -domRect.height) {
-				navBar.classList.add("fade-in-nav");
-			}
-			if (-domBGRect.height < domBGRect.top) {
-				navBar.classList.remove("fade-in-nav");
-			}
-		});
+		this.scrolling = this.scrolling.bind(this);
 	}
+
+	componentDidMount() {
+		new WOW.WOW().init();
+	}
+
+	// navEffect() {
+	// 	window.addEventListener("scroll", () => {
+	// 		var navBar = document.getElementById("navbar");
+	// 		var domRect = navBar.getBoundingClientRect();
+	// 		var myBackground = document.getElementById("my-background");
+	// 		var domBGRect = myBackground.getBoundingClientRect();
+
+	// 		if (domRect.y <= -domRect.height) {
+	// 			navBar.classList.add("fade-in-nav");
+	// 		}
+	// 		if (-domBGRect.height < domBGRect.top) {
+	// 			navBar.classList.remove("fade-in-nav");
+	// 		}
+	// 	});
+	// }
 
 	scrolling(instance) {
 		let node = document.getElementById(instance.current.props.id);
@@ -38,24 +45,21 @@ class Navbar extends React.Component {
 		});
 	}
 
-
-
-    
-render() {
-    return(
-        <div>
-            <BackGround
-            	ref={this.navEffect}
-                id="my-background"
-                aboutRef={this.about}
-                bounceIn={"wow bounceIn"}
-            />
-            <nav
-            id="navbar"
-            className= "navbar navbar-expand-lg navbar-light bg-light"
-            >
-                <div className="container">
-                <a
+	render() {
+		return (
+			<div>
+				<Background
+					ref={this.navEffect}
+					id="my-background"
+					aboutRef={this.about}
+					bounceIn={"wow bounceIn"}
+					
+				/>
+				{/* <nav
+					id="navbar"
+					className="navbar navbar-expand-lg navbar-dark bg-">
+					<div className="container">
+						<a
 							className="home-style navbar-brand"
 							onClick={() => {
 								window.scrollTo({
@@ -65,8 +69,7 @@ render() {
 							}}>
 							Back to Space
 						</a>
-
-                		<button
+						<button
 							className="navbar-toggler"
 							type="button"
 							data-toggle="collapse"
@@ -89,7 +92,7 @@ render() {
 								</a>
 								<a
 									onClick={() => {
-										this.scrolling(this.projects);
+										this.scrolling(this.project);
 									}}
 									className="btn-style nav-item nav-link">
 									Projects
@@ -104,8 +107,8 @@ render() {
 							</div>
 						</div>
 					</div>
-				</nav>
-                <About
+				</nav> */}
+				<About
 					ref={this.about}
 					id="about-container"
 					bounceLeft={"wow bounceInLeft"}
@@ -114,10 +117,18 @@ render() {
 					fadeIn={"wow fadeIn"}
 					tada={"wow fadeIn"}
 				/>
-				
+				<Projects
+					ref={this.project}
+					id="my-projects"
+					fadeInRight={"wow fadeInRight"}
+					fadeIn={"wow fadeIn"}
+				/>
+
 			</div>
-    );
+		);
+	}
 }
-};
 
 export default Navbar;
+
+
