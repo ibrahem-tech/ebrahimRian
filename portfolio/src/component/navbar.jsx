@@ -4,6 +4,7 @@ import About from "./about.jsx";
 //import Test from "./test.jsx";
 import Projects from "./projects.jsx";
 import Contact from "./contact.jsx";
+import Footer from './footer'
 
 import WOW from "wowjs";
 
@@ -130,6 +131,8 @@ class Navbar extends React.Component {
 					fadeInLeft={"wow fadeInLeft"}
 					shake={"wow pulse"}
 				/>
+
+				<Footer/>
 
 			</div>
 		);

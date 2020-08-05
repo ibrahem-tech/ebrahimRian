@@ -18,7 +18,7 @@ export default class Background extends React.Component {
                     <h1>
 						Hello, I&apos;m Ebrahim Rian.
 						<br />
-						I&apos;m a Full Stack Web Developer. 
+						Full Stack Web Developer. 
                     </h1>
 
                     <button

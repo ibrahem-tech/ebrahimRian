@@ -1,49 +1,56 @@
 [{
-    "src": "https://vecto.rs/1024/vector-of-a-cartoon-woman-taking-notes-by-toonaday-25278.jpg",
+    "src": "https://media-public.canva.com/MADQ4jziFRM/2/thumbnail_large-1.jpg",
     "title": "Note Taker",
     "description": "A notebook web application for writing, saving and deleting notes.",
     "tech": "Materialize, Express, Node, EJS, jQuery",
     "url": "https://notetakerbootcamp.herokuapp.com/notes",
     "repo": "https://github.com/ibrahem-tech/Note-Taker"
-},
+},{
+    "src": "https://media-public.canva.com/nCcak/MAD2IxnCcak/1/tl.jpg",
+    "title": "City Scope",
+    "description": "App that promotes health and safety awareness to the public and provides other information – prevention and risks, symptoms and treatment, health resources etc.",
+    "tech": "React, NodeJs, Express ,MongoDB, Mongoose, Redux, Passport, Tailwindcss, Heroku",
+    "url": "https://evening-fjord-84199.herokuapp.com/",
+    "repo": "https://github.com/ibrahem-tech/City-Scope"
+    },
 {
-    "src": "https://www.disneyfanatic.com/wp-content/uploads/2016/01/weather.jpg",
+    "src": "https://media-public.canva.com/MADGyJ61l1w/4/thumbnail_large.jpg",
     "title": "Weather Dashboard",
     "description": "An application for checking current and forecast weather condition of various location.",
     "tech": "HTML, CSS, Javascript, jQuery",
     "url": "https://ibrahem-tech.github.io/weather-dashboard/",
     "repo": "https://github.com/ibrahem-tech/weather-dashboard"
 },{
-    "src": "https://m.media-amazon.com/images/M/MV5BZGJiNmM1NDctNWUxYS00YzE4LWJjNTgtYTJhYzE0NjFmMTMwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+    "src": "https://media-public.canva.com/-XeTQ/MAD3St-XeTQ/1/tl.jpg",
     "title": "Burger App",
     "description": "A simple web application for ordering and making burgers.",
     "tech": "Handlebars, Node, Express, EJS, jQuery",
     "url": "https://rocky-brushlands-07128.herokuapp.com/",
     "repo": "https://github.com/ibrahem-tech/burger"
 },{
-    "src": "https://i0.wp.com/studentloanhero.com/wp-content/uploads/how-to-create-a-budget.jpg?resize=420%2C260&ssl=1",
+    "src": "https://media-public.canva.com/MADQ5I0-l-0/1/thumbnail_large-1.jpg",
     "title": "Budget Your Budget",
     "description": "An application that helps user to plan and track their budget, and makes a retirement savings plan",
     "tech": "Materialize, Javascript, Chart.js",
-    "url": "http://lit-plains-40651.herokuapp.com/",
-    "repo": "https://github.com/waveshocker/Project_2"
+    "url": "https://gh0stl0nely.github.io/Budget-your-budget/",
+    "repo": "https://github.com/gh0stl0nely/Budget-your-budget/tree/master"
 },
 {
-    "src": "https://mobycy.com/blog/wp-content/uploads/2018/01/parking.png",
+    "src": "https://media-public.canva.com/MADGw28fPrU/7/thumbnail_large.jpg",
     "title": "Not Your Average Parking App ",
     "description": "A yelp for the micro mobility revolution",
-    "tech": "Node.js, Express, mySQL, google maps api, Passport, Materialize ",
-    "url": "https://gh0stl0nely.github.io/Budget-your-budget/",
-    "repo": "https://github.com/gh0stl0nely/Budget-your-budget"
+    "tech": "React ,Node.js, Express, mySQL, google maps api, Passport, Materialize ",
+    "url": "https://link-n-park.herokuapp.com/",
+    "repo": "https://github.com/waveshocker/Project_2"
 },{
-    "src": "https://www.insperity.com/wp-content/uploads/push_for_productivity1200x630.png",
+    "src": "https://media-public.canva.com/OWhQU/MADyQ1OWhQU/1/tl.jpg",
     "title": "Employee Directory",
     "description": "An online employee directory that allows managers to filter, sort and add employees.",
     "tech": "React, Materialize",
     "url": "https://fervent-ride-56b660.netlify.app/",
     "repo": "https://github.com/ibrahem-tech/Employee-Directory"
 },{
-    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScHq7hOHON-Edhgz52SZ_viOsNBvJVhMovNQ&usqp=CAU",
+    "src": "https://media-public.canva.com/MADGyUPBtd4/4/thumbnail_large.jpg",
     "title": "Coding Quiz",
     "description": "A web development-specific quiz for testing basic knowledge of web developers.",
     "tech": "HTML, CSS, Javascript, jQuery, Bootstrap, Web Storage API",
@@ -51,28 +58,36 @@
     "repo": "https://github.com/ibrahem-tech/quiz"
 },
 {
-    "src": "https://blogs.ubc.ca/jaclearningblog/files/2015/11/kids-reading-in-library.jpg",
+    "src": "https://media-public.canva.com/MADGv2KEWGU/7/thumbnail_large.jpg",
     "title": "Google Books React APP",
-    "description": "A simple blog built with React Hooks that supports CRUD operations.",
+    "description": "A full stack application that lets user search for books using Google Book API, save books, delete saved books from database.",
     "tech": "React Hooks, Heroku, MongoDB, Google Books API, Node.js, Express.js ",
     "url": "https://secret-dawn-01515.herokuapp.com/",
     "repo": "https://github.com/ibrahem-tech/google_book_search"
 },{
-    "src": "https://i.ytimg.com/vi/yBC2ZZQ2SHE/maxresdefault.jpg",
+    "src": "https://media-public.canva.com/MADXiJGZypM/1/thumbnail_large-1.jpg",
     "title": "Tic-Tac-Toe multiplayer game ",
     "description": "A simple Tinder-like application for dogs.",
     "tech": "React, React-dom, Hooks, socketIO, Node.js",
     "url": "https://github.com/abolkog/tic-tac-toe-online",
     "repo": "https://github.com/abolkog/tic-tac-toe-online"
 },{
-    "src": "https://accountmanager.tips/wp-content/uploads/2017/03/20-Calendar-and-Schedule-Management-Tips.jpg",
+    "src": "https://media-public.canva.com/MADGyY9RBz4/4/thumbnail_large.jpg",
     "title": "Day Scheduler",
     "description": "A web application for scheduling your day.",
     "tech": "HTML, CSS, Javascript, jQuery",
     "url": "https://ibrahem-tech.github.io/Work-Day-Scheduler/",
     "repo": "https://github.com/ibrahem-tech/Work-Day-Scheduler"
 },{
-    "src": "https://media.threatpost.com/wp-content/uploads/sites/103/2019/11/20084407/password.png",
+"src": "https://media-public.canva.com/kCUrg/MAD0WHkCUrg/1/tl.jpg",
+"title": "Workout Tracker",
+"description": "A fitness tracker that allows users to add exercises to their workout routine and track the progress of their routine.",
+"tech": "NodeJs, Express, jQuery ,MongoDB, Mongoose, Heroku, Chart.jS  ",
+"url": "https://gentle-atoll-21374.herokuapp.com/?id=5eda8100fa97e90017710bcb",
+"repo": "https://github.com/ibrahem-tech/Workout-tracker-"
+},
+{
+    "src": "https://media.kasperskydaily.com/wp-content/uploads/sites/92/2014/12/06042011/password.png",
     "title": "Password Generator",
     "description": "An application for creating password based on chosen criterias.",
     "tech": "HTML, CSS, Bootstrap, Javascript, jQuery",

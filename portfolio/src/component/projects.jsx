@@ -2,7 +2,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import {Container, Row, Col, Button} from "react-bootstrap";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
 import projectData from "../../src/Source.json";
 import Popover from 'react-bootstrap/Popover';
 import PropTypes from "prop-types";

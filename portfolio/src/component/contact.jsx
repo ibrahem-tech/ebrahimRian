@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
             >
                 <h1 
                 id="contact" 
-                style={{marginTop: 200 + "px"}}
+                style={{padding: 0, scrollMarginTop: 3+ "em"}}
                 className={"mb-3 " + this.props.fadeInLeft}
                 >
                     Conatct Me
@@ -62,7 +62,7 @@ export default class Contact extends React.Component {
 					</div>
 					<div className="row text-md-right text-sm-center">
 						<div className="col-12 col-sm-12 col-md-6 mx-auto">
-							<button style={{backgroundColor: "white", color: "black", border: "#ADEFD1FF"}}
+							<button style={{backgroundColor: "white", color: "black", border: "#ADEFD1FF", marginTop: 1 + "em",marginRight: 15 + "em"}}
 								type="submit"
 								className="btn btn-primary mb-2 hidden">
 								Submit

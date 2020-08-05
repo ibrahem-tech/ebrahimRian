@@ -6,7 +6,7 @@ import linkedin from "../img/linkedin.png";
 class Footer extends React.Component {
 	render() {
 		return (
-			<div style={{marginTop: -50 + "px"}} id="footer" className="container-fluid text-center py-3">
+			<div style={{marginTop: 50 + "px"}} id="footer" className="container-fluid text-center py-3">
 				<div className="container">
 					<div className="row">
 						<div className="col-12 col-sm-12 col-md-8 mx-auto">
