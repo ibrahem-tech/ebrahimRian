@@ -117,8 +117,8 @@
 }
 
 #footer {
-    background-color: #061b3d;
-    color: gray;
+    background-color: #ADEFD1FF;
+    color: black;
     z-index: 1000;
 }
 
@@ -152,29 +152,6 @@
     font-size: 1rem;
 }
 
-.testbg { 
-    background-image: url("../img/noteTaker.jpg");
-    height: 400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.aguabg { 
-    background-image: url("../img/noteTaker.jpg");
-    height: 400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.todobg { 
-    background-image: url("../img/noteTaker.jpg");
-    height: 400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .mytext {
     font-size: 1.2rem;
 }
@@ -193,9 +170,9 @@
     0% {opacity: 0; transform: translateY(300px);}
     100% {opacity: 1; transform: translateY(0)}
 }
-.hidden, .hiddenBot, .hiddenRight {
-    //opacity: 0;
-}
+// .hidden, .hiddenBot, .hiddenRight {
+//     //opacity: 0;
+// }
 .slideBot {
     animation: slideBot 1s;
 }

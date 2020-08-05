@@ -47,7 +47,7 @@ class Navbar extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div style={{background: "radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)", color: "white"}}>
 				<Background
 					ref={this.navEffect}
 					id="my-background"
@@ -122,6 +122,13 @@ class Navbar extends React.Component {
 					id="my-projects"
 					fadeInRight={"wow fadeInRight"}
 					fadeIn={"wow fadeIn"}
+				/>
+				
+				<Contact
+					ref={this.contact}
+					id="my-contact"
+					fadeInLeft={"wow fadeInLeft"}
+					shake={"wow pulse"}
 				/>
 
 			</div>

@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 
 const styles = {
     marginTop : {
-        marginBottom: "30px"
+        marginBottom: "30px",
     },
 
     text : {
@@ -23,10 +23,10 @@ const styles = {
         left: "50%"
     },
     repo: {
-        paddingTop: "100px",
-        fontSize: "40px",
+        marginTop: "100px", 
+        marginLeft: "5px",
+        backgroundColor: "#162447",
         borderColor: "#e43f5a",
-        fontSize: "45px"
     },
     demo: {
         marginTop: "100px", 
@@ -49,7 +49,7 @@ function Project() {
                                 <Card.ImgOverlay className="overlay">
                                     <Card.Title style={styles.text}>{item.title}</Card.Title>
                                     <Card.Text>
-                                        <i style={styles.repo} onMouseEnter={(e) => e.target.style.cursor = "pointer"} onClick={() => window.open(item.repo)} class="fa fa-github" aria-hidden="true"></i>
+                                        <Button style={styles.repo} onMouseEnter={(e) => e.target.style.cursor = "pointer"} onClick={() => window.open(item.repo)} className="fa fa-github" aria-hidden="true">Repo</Button>
                                         <Button style={styles.demo} onClick={() => window.open(item.url)}>Demo</Button>
                                     </Card.Text>
                                 </Card.ImgOverlay>
@@ -73,7 +73,7 @@ function Project() {
     }
 
     return (
-        <div style={{backgroundColor: "white", color: "black", paddingTop: "150px", marginTop: "-120px"}}>
+        <div style={{backgroundColor: "radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)", color: "white", paddingTop: "150px", marginTop: "-120px"}}>
             <div>
             <h1 id="projects" style={{textAlign: "center", paddingTop: "100px"}}> PORTFOLIO</h1>
             <h8 id="projects" style={{textAlign: "center", paddingTop: "0px"}}> Check out my projects</h8>
